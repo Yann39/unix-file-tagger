@@ -1,4 +1,7 @@
 #!/bin/bash
+#Author : Yann <rockyracer@mailfence.com>
+#Date : dec 2007
+
 #si on a bien 2 arguments
 if [ $# -eq 2 ]
 then

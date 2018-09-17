@@ -1,4 +1,6 @@
 #!/bin/bash
+#Author : Yann <rockyracer@mailfence.com>
+#Date : dec 2007
 
 #si on a pas d'arguments
 if [ $# -eq 0 ]

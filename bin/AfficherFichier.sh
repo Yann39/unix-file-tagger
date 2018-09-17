@@ -1,4 +1,7 @@
 #!/bin/bash
+#Author : Yann <rockyracer@mailfence.com>
+#Date : dec 2007
+
 #si on a au moins 2 arguments
 if [ $# -ge 2 ]
 then

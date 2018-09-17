@@ -1,4 +1,6 @@
 #!/bin/bash
+#Author : Yann <rockyracer@mailfence.com>
+#Date : dec 2007
 
 #efface les alias existants
 unalias addtag

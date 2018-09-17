@@ -1,3 +1,9 @@
+/*
+configuration.h
+Author : Yann <rockyracer@mailfence.com>
+Date : dec 2007
+*/
+
 /* ============ */
 /* Requêtes SQL */
 /* ============ */

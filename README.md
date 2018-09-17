@@ -24,7 +24,7 @@ It was originally compiled with **GCC** for **32** bits systems. I recompiled it
     ./configure.sh
     ```
     You can also do it manually if you prefer, just inspect the file.
-3. Run available commands, see [Execute](#Execute)
+3. Run available commands, see [Execute](#execute)
 
 ## Compile
 
@@ -55,6 +55,8 @@ Simply use the available commands (once aliases have been created) :
 - `delalltags` → remove all tags from all tagged files
 - `ls --tag [option] tag` → list files tagged with the specified tag
 - `rm --tag tag` → remove files tagged with the specified tag
+
+See the [Examples](#examples) section.
 
 ## Uninstall
 
@@ -105,7 +107,7 @@ It is done by executing the `addtag` command which will :
 3. if the argument passed as first parameter is a file :
     - check if the file is already tagged
     - if it already is, checks that there is no incompatibility of tags
-    - get the inode of the file and store it with the filename and its tag in the `tags` table into the database
+    - get the _inode_ of the file and store it with the filename and its tag in the `tags` table into the database
 4. if the argument passed in 2nd parameter is a directory, we goes through it recursively, and for each element, we call the function to tag the files (step 3 above is executed for each of the files)
 
 When tagging a directory, you can interrupt the process using `ctrl + c`;

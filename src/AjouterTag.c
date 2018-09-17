@@ -1,3 +1,9 @@
+/*
+AjouterTag.c
+Author : Yann <rockyracer@mailfence.com>
+Date : dec 2007
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sqlite3.h>
